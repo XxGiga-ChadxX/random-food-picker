@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Food Picker</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+
+    <h1>Welcome to the Random Food Picker!</h1>
+    <div>
+        <label for="food-list">Enter your food options (comma-separated):</label>
+        <input type="text" id="food-list">
+        <button onclick="chooseFood()">Pick a Random Food</button>
+    </div>
+    
+    <div id="result"></div>
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>

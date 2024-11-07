@@ -1,0 +1,26 @@
+body {
+   font-family: Arial, sans-serif;
+   text-align: center;
+   padding-top: 50px;
+}
+
+#food-list {
+   margin-bottom: 20px;
+   padding: 10px;
+   font-size: 16px;
+}
+
+button {
+   padding: 10px 20px;
+   background-color: #4CAF50;
+   color: white;
+   border: none;
+   font-size: 16px;
+   cursor: pointer;
+}
+
+#result {
+   margin-top: 20px;
+   font-size: 24px;
+   font-weight: bold;
+}
